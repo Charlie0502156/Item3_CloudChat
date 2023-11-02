@@ -24,24 +24,6 @@ def handle_client(client_socket):
 
     # Receive a message from the client
     message = client_socket.recv(1024).decode('utf-8')
-    # command = message.split()
-
-    # if str(command[1]) == 'open':
-    #     x = 1
-    #     a = 1
-
-    # elif str(command[1]) == 'close':
-    #     x = -1
-    #     a = 1
-
-    # if str(command[1]) == 'set':
-    #     x = 1
-    #     a = 0
-    # else:
-    #     print('error')
-
-    # result = b*a + x*int(command[2])
-    # confirmation = f"Dam at {result}% outflow"
     print("input: ", message)
     x = cmds[message].split()
     print(x)
