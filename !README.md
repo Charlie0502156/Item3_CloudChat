@@ -10,4 +10,7 @@ Using wireshark it can be very easy to filter and read the commands being sent t
 
 I added another server to demonstrate when it would look like, the messages all pass through it and it can print the out but doesn't know what they mean because they are encrypted and it similarly gets the encrypted output from the dam, after recorded enough of them it could recive an ecrypted message which I knows what the output would be so it could replace it with another that it knows and then send a different confirmation as well so the client can't know whats happening  
 
+Source
+ChatGPT for learning how to use threading
+
 There is a diagram on Domputer.drawio.png
